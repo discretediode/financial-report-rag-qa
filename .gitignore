@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Source documents (copyrighted — do not commit annual report PDFs)
+pdfs/
+
+# Generated pipeline artifacts
+extracted/
+chunks/
+embeddings/
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# HuggingFace model cache
+.cache/
+
+# OS
+.DS_Store
